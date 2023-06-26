@@ -1,0 +1,85 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: content-box;
+}
+
+body{
+    background-color: rgb(207, 218, 222);
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    padding: 50px 300px 50px 300px;
+}
+
+.cubo{
+    display: grid;
+    grid-template-columns:20% auto;
+    grid-template-rows: 320px auto;    
+    background-color: white;
+}
+
+.image-profile{
+    display: grid;	
+	background-size: cover;
+    justify-content: center;
+    border: groove;
+}
+
+.encabezado{
+    align-items: center;
+    text-align: center;
+    background-color: #686868;
+    display: grid; 
+    color: white;   
+    border: groove;
+}
+
+.datos{
+    background-color: rgb(180, 178, 178);
+    height: auto;
+    text-align: center;
+    list-style-type:none;
+    border: groove;
+}
+
+h2{
+    padding: 15px;
+    font-size: 20px;
+}
+
+.profile-description{
+    text-align: center;
+    font-size: 15px;
+}
+
+.titulo1{
+    text-align: center;
+    font-size: 25px;
+}
+
+.titulo2{
+    text-align: center;
+    font-size: 15;
+}
+
+p{
+    text-align: center;
+}
+
+ul{
+    text-align: center;
+    list-style-type: none;
+    font-size: 15px;
+}
+
+p{
+    font-size: 15px;
+}
+
+.skills{
+    font-size: 15px;
+    text-align: center;
+}
+.informacion{
+    border: groove;
+}
